@@ -1,0 +1,6 @@
+apache-beam[gcp]
+pyspark
+delta-spark
+google-cloud-pubsub
+apache-airflow
+google-cloud-bigquery
