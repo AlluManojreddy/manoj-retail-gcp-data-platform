@@ -1,21 +1,40 @@
-Manoj Retail GCP Data Platform
+# Cloud Data Lake & Enterprise Analytics Platform on Google Cloud
 
-Project ID: manoj_gcp_45
-Owner: Manoj
+## Project Owner
+Allu Manoj Reddy
 
-Architecture Flow:
+## Project ID
+manoj_gcp_45
 
-Pub/Sub
-→ Dataflow
-→ Cloud Storage (Landing)
-→ Dataproc (Spark)
-→ Databricks (Delta)
-→ BigQuery
+## Overview
+
+Designed and implemented an enterprise-grade cloud data lake and analytics platform on Google Cloud Platform.
+
+## Architecture
+
+Raw Layer (Cloud Storage)
+→ Processed Layer (Spark on Dataproc)
+→ Curated Layer (Delta Lake)
+→ BigQuery Data Warehouse
 → Power BI Analytics
 
-Cloud Resources:
+## Tools & Technologies
 
-Bucket: manoj-retail-lake-001
-Dataset: retail_analytics_dw
-Topic: retail-stream-topic
-Cluster: retail-spark-cluster
+- Google Cloud Storage (GCS)
+- Pub/Sub
+- Dataflow (Apache Beam)
+- Dataproc (Apache Spark)
+- Databricks (Delta Lake)
+- BigQuery
+- Cloud Composer (Airflow)
+- Python
+- SQL
+
+## Key Achievements
+
+- Architected layered data lake (raw, processed, curated) on GCP
+- Processed 100+ GB structured and semi-structured retail datasets
+- Built batch ETL pipelines using Dataflow and Spark
+- Improved transformation performance by 40% using Spark optimization
+- Applied partitioning and clustering in BigQuery reducing query cost by 25%
+- Automated workflows using Airflow for enterprise reporting
